@@ -1,0 +1,131 @@
+/* Register Form Start */
+.form-container{
+	padding: 50px 0;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-group label{
+	font-size: 16px;
+	color: #1B1D34;
+}
+
+.form-group input{
+	font-family: 'PT Sans';
+}
+
+.date-container{
+	margin: 10px auto;
+	width: 100%;
+	text-align: center;
+}
+
+.date-field{
+	margin: 0 10px;
+	height: 60px;
+	display: inline;
+}
+
+.date-field input{
+	height: 60px;
+	text-align: center;
+	font-size: 16px;
+	color: #1B1D34;
+	display: inline;	
+}
+
+.date-field input::placeholder{
+	text-align: center;	
+}
+
+.form-group input:focus{
+	outline: none;
+	box-shadow: none;
+	border: 2px solid #1B1D34;
+}
+
+.form-group select:focus{
+	outline: none;
+	box-shadow: none;
+	border: 2px solid #1B1D34;
+}
+
+.form-group .btn{
+	width: 200px;
+	height: 40px;
+	background-color: #1B1D34;
+	font-size: 16px;
+	color: #FFF;
+	font-family: 'PT Sans';
+}
+
+.form-group .btn:focus{
+	outline: none;
+	box-shadow: none;
+}
+
+.catch-error{
+	margin: 10px 0 0 40px;
+	font-size: 16px;
+}
+
+.checkbox{
+	margin: 6px 5px 0 0;
+}
+
+.form-group span:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.modal-footer button{
+	background-color: #1B1D34;
+	font-size: 16px;
+	color: #FFF;
+	font-family: 'PT Sans';
+}
+
+.modal-footer button:hover{
+	color: #FFF;
+}
+
+.modal-footer button:focus{
+	outline: none;
+	box-shadow: none;
+}
+/* Register Form End */
+
+/* Responsive Start */
+@media screen and (max-width: 1000px){
+	.date-field{
+		width: 100%;
+		display: inline;
+	}
+
+	.date-field input{
+		margin: 10px 0;
+		width: 100%;
+		height: 40px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.form-container{
+		padding-bottom: 20px;
+	}
+
+	.form-group .btn{
+		margin: 5px auto;
+	}
+
+	.catch-error{
+	    margin: 10px 0;
+	    font-size: 16px;
+	    display: block;
+	    width: 100%;
+	    text-align: center;
+	}
+}
+/* Responsive End */

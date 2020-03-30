@@ -1,0 +1,38 @@
+/* Import Font Start */
+	@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+/* Import Font End */
+
+/* start html, body */
+html, body{
+	width: 100%;
+	user-select: none;
+	font-family: 'PT Sans';
+}
+/* End html, body */
+
+/* Start Header */
+header{
+	height: 100px;
+	background-color: #1B1D34;
+	color: #FFF;
+}
+
+header .float-left h1{
+	margin: 30px 0 0 0;
+}
+
+header .float-right button{
+	margin: 40px 0 0 0;
+	font-size: 16px;
+	color: #FFF;
+}
+
+header .float-right .btn:hover{
+	color: #FFF;
+}
+
+header .float-right .btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+/* End Header */

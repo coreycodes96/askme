@@ -1,0 +1,29 @@
+/* Global Start */
+html, body{
+	user-select: none;
+}
+/* Global End */
+
+/* News Start */
+.news-container{
+	margin: 80px auto 20px auto;
+}
+.news-box{
+	margin: 40px 0 0 0;
+	padding: 10px 5px;
+	background-color: #1B1D34;
+	color: #FFF;
+}
+
+.news-box h3{
+	margin: 10px 0 0 20px;
+	padding-bottom: 10px;
+	width: 95%;
+	font-size: 22px;
+	border-bottom: 3px solid #FFF;
+}
+
+.news-box p{
+	margin: 10px 0 10px 20px;
+}
+/* News End */

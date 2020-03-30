@@ -1,0 +1,59 @@
+/* Login Form Start */
+.form-container{
+	margin-top: 70px;
+	padding: 50px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.form-group label{
+	font-size: 16px;
+	color: #1B1D34;
+}
+
+.form-group input{
+	font-family: 'PT Sans';
+}
+
+.form-group input:focus{
+	outline: none;
+	box-shadow: none;
+	border: 2px solid #1B1D34;
+}
+
+.form-group .btn{
+	width: 200px;
+	height: 40px;
+	background-color: #1B1D34;
+	font-size: 16px;
+	color: #FFF;
+	font-family: 'PT Sans';
+}
+
+.form-group .btn:focus{
+	outline: none;
+	box-shadow: none;
+}
+
+.catch-error{
+	margin: 10px 0 0 40px;
+	font-size: 16px;
+}
+/* Login Form End */
+
+/* Responsive Start */
+@media screen and (max-width: 800px){
+	.form-group .btn{
+		margin: 10px auto;
+	}
+
+	.catch-error{
+		margin: 10px 0;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
+/* Responsive End */

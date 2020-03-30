@@ -1,0 +1,74 @@
+/* Import Font Start */
+	@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+/* Import Font End */
+
+/* html, body Start */
+html, body{
+	height: 100%;
+	width: 100%;
+	background-color: #1B1D34;
+	user-select: none;
+	font-family: 'PT Sans';
+}
+/* html, body End */
+
+/* Header Start */
+.content-container{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content-container h1{
+	margin: 10px 0 0 0;
+	padding: 10px 15px;
+	background-color: #FFF;
+	font-size: 100px;
+	color: #1B1D34;
+}
+
+.content-container{
+	text-align: center;
+}
+
+.content-container .btn:focus{
+	box-shadow: none;
+}
+
+.content-container .btn:hover{
+	color: #1B1D34;
+}
+
+.content-container button{
+	margin: 30px 10px 0 10px;
+	font-size: 16px;
+	color: #1B1D34;
+	background-color: #FFF;
+}
+
+.content-container i{
+	font-size: 14px;
+}
+/* Header End */
+
+/* Responsive Start */
+@media screen and (max-width: 850px){
+	.content-container h1{
+		font-size: 60px;
+	}
+
+	.content-container button{
+		font-size: 14px;
+	}
+
+	.content-container i{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.content-container h1{
+		font-size: 45px;
+	}
+}
+/* Responsive End */
